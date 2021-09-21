@@ -1,0 +1,43 @@
+h1,
+h2 {
+  color: #3d405b;
+}
+
+span {
+  color: #1a759f;
+}
+
+.tag {
+  background-color: #ffc8dd;
+  color: #b5179e;
+  border-radius: 5px 30px 30px 5px;
+  font-size: 16px;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+button {
+  background-color: #f2cc8f;
+}
+
+#btnSignUp {
+  background-color: #3d405b;
+  color: #f4f1de;
+}
+
+body {
+  background-color: #f4f1de;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.post a {
+  background-color: #00f5d4;
+  color: #faf9f9;
+  border-radius: 10px;
+  font-size: 16px;
+}

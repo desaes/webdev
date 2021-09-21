@@ -7,17 +7,43 @@
     <title>Document</title>
   </head>
   <body>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-      molestiae perspiciatis, dolor accusantium adipisci vero nulla veniam esse
-      nesciunt sit enim quidem blanditiis autem modi quod assumenda facere
-      numquam iusto.
-    </p>
-    <div>Teste de div</div>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsum,
-      eveniet deserunt, sunt dolores exercitationem rerum quae reprehenderit
-      quasi itaque dicta in odio fuga. Ipsam nobis cumque nostrum ex delectus.
-    </p>
+    <h1>Forms Demo</h1>
+    <form action="/tacos" method="post">
+      <input type="text" placeholder="username" />
+      <input type="password" placeholder="password" />
+      <input type="color" />
+      <input type="date" autofocus />
+      <input type="datetime-local" />
+      <input type="email" />
+      <input type="file" />
+      <input type="image" />
+      <input type="month" />
+      <input type="number" />
+      <input type="password" />
+      <input type="range" min="0" max="100" />
+      <input type="tel" />
+      <input type="time" />
+      <input type="url" />
+      <input type="week" />
+
+      <div class="preference">
+        <label for="cheese">Do you like cheese?</label>
+        <input type="checkbox" name="cheese" id="cheese" />
+      </div>
+
+      <div class="preference">
+        <label for="peas">Do you like peas?</label>
+        <input type="checkbox" name="peas" id="peas" />
+      </div>
+      <input
+        type="text"
+        name="search"
+        placeholder="search"
+        required
+        minlength="5"
+        maxlength="10"
+      />
+      <button>submit</button>
+    </form>
   </body>
 </html>
