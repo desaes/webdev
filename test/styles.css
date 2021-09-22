@@ -40,4 +40,35 @@ li a {
   color: #faf9f9;
   border-radius: 10px;
   font-size: 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.post button:hover {
+  background-color: darkred;
+  color: #f2cc8f;
+}
+
+.post button:active {
+  background-color: green;
+}
+
+h2::first-letter {
+  color: red;
+  font-family: serif;
+  font-size: 50px;
+}
+
+*::selection {
+  background-color: red;
+  color: white;
+}
+
+button:hover {
+  background-color: olive;
+  font-size: 10px;
 }
