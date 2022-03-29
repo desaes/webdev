@@ -1,0 +1,44 @@
+p {
+  text-align: justify;
+  font-weight: 400;
+  line-height: 3em;
+  /*letter-spacing: 3px;*/
+  font-family: verdana;
+}
+
+h1 {
+  text-align: center;
+  width: 50%;
+  font-weight: lighter;
+  font-size: 100px;
+  /*font-family: Futura, Segoe UI;*/
+  font-family: cursive;
+}
+
+.under {
+  text-decoration: underline red;
+}
+
+.over {
+  text-decoration: wavy overline lime;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.plain {
+  text-decoration: none;
+}
+
+.underover {
+  text-decoration: dashed underline overline;
+}
+
+.thick {
+  text-decoration: solid underline purple 4px;
+}
+
+.blink {
+  text-decoration: blink;
+}
